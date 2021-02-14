@@ -28,6 +28,8 @@ class ViewController: UIViewController {
 
     
     @IBAction func dealButtonTapped(_ sender: Any) {
+        //Declare local variables
+        
         let leftRandomNumber = Int.random(in: 2...14)
         let rightRandomNumber = Int.random(in: 2...14)
         
