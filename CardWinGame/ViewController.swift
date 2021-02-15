@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+//adding comments
     @IBOutlet weak var leftImageView: UIImageView!
     
     @IBOutlet weak var rightImageView: UIImageView!
