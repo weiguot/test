@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         leftImageView.image = UIImage(named: "card\(leftRandomNumber)")
         rightImageView.image = UIImage(named: "card\(rightRandomNumber).png")
         
+        
         //Logic for deciding which user wins a point
         if (leftRandomNumber > rightRandomNumber) {
             leftScore += 1
